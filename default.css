@@ -31,8 +31,8 @@ body {margin:0px;
 .content {
 	background-color: white;
 	position: relative;
-	padding: 200px;
+	padding: 100px;
 	margin: 60px;
-	
+	text-align: justify;
 	
 }
