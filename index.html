@@ -19,7 +19,7 @@
 	<!-- content -->
 	<header>
 		<div class="logo">MiDAS</div>
-				
+				<!--
 				<audio id="player" autoplay loop >
 					
 					Audio element not supported by your browser. 
@@ -29,20 +29,20 @@
 				<button onclick="document.getElementById('player').pause()">Pause</button> 
 				<button onclick="document.getElementById('player').volume += 0.1">Vol+ </button> 
 				<button onclick="document.getElementById('player').volume -= 0.1">Vol- </button> 
-				</div>
+				</div>//-->
 
 
 
 </header>
 <div class="content">
-<div><img src="tday.jpg" alt="frissítse az oldalt/adblockot ki" title="teacher's day special"></div>
-<div>
-<?php 
-$txtfile = file_get_contents("lorem.txt");
-echo $txtfile;
-echo ' &#x1F407;';  
-?>
-</div>
+<div id="mydiv"><img src="tday.jpg" alt="frissítse az oldalt/adblockot ki" title="teacher's day special"></div>
+<script>
+	var logoHeight = $('#myDiv img').height();
+    if (logoHeight < 720) {
+        var margintop = (720 - logoHeight) / 2;
+        $('#myDiv img').css('margin-top', margintop);
+    }
+	</script>
 </div>
 
 </body>
