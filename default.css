@@ -33,13 +33,14 @@ body {margin:0px;
 	position: relative;
 	padding: 20px;
 	margin: 50px;
-	text-align: justify;
+	text-align: center;
+	display: block;
 	
 }
 #myDiv 
 {
-  height:104px;
-  width:140px;
+  height:720px;
+  width:1200px;
 }
 #myDiv img
 {
