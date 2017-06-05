@@ -15,6 +15,13 @@
 	<script>$(window).load(function() {$('body').sakura();});</script>
 	<script src="main.js"></script>
 	 <script>window.onload=setVolume</script>
+	<script>
+		var logoHeight = $('#myDiv img').height();
+   		 if (logoHeight < 720) {
+      	  	var margintop = (720 - logoHeight) / 2;
+        	$('#myDiv img').css('margin-top', margintop);
+    		}
+	</script>
 	 
 	<!-- content -->
 	<header>
@@ -36,13 +43,7 @@
 </header>
 <div class="content">
 <div id="mydiv"><img src="tday.jpg" alt="frissítse az oldalt/adblockot ki" title="teacher's day special"></div>
-<script>
-	var logoHeight = $('#myDiv img').height();
-    if (logoHeight < 720) {
-        var margintop = (720 - logoHeight) / 2;
-        $('#myDiv img').css('margin-top', margintop);
-    }
-	</script>
+
 </div>
 
 </body>
