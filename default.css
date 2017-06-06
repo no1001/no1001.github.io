@@ -40,11 +40,11 @@ body {margin:0px;
 	
 }
 footer{background-color: white;
-	width: 100%;
+	width: auto;
 	position: absolute;
-	bottom: 10px;
-	padding: 20px;
-	margin: 50px;
+	bottom: 0px;
+	padding: 0px;
+	margin: 0px auto;
 	text-align: center;
 	display: block;
 
