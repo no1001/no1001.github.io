@@ -38,13 +38,9 @@ body {margin:0px;
 	
 }
 #myDiv 
-{
-  height:720px;
-  width:1200px;
-}
-#myDiv img
-{
-  
-  margin:auto;
-  display:block;
+{	margin:auto;
+	position: fixed;
+	display:block;
+  	height: 720px;
+  	width: 1200px;
 }
