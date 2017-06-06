@@ -34,11 +34,12 @@ body {margin:0px;
 	position: relative;
 	padding: 20px;
 	margin: 50px;
-	text-align: center;
+	text-align: justify;
 	display: block;
 	
 }
 footer{background-color: white;
+	width: 100%;
 	position: absolute;
 	bottom: 10px;
 	padding: 20px;
